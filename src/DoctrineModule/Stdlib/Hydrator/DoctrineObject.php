@@ -26,8 +26,8 @@ use Doctrine\Common\Util\Inflector;
 use InvalidArgumentException;
 use RuntimeException;
 use Traversable;
+use Zend\Hydrator\AbstractHydrator;
 use Zend\Stdlib\ArrayUtils;
-use Zend\Stdlib\Hydrator\AbstractHydrator;
 use Zend\Stdlib\Hydrator\Filter\FilterProviderInterface;
 
 /**
